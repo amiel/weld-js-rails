@@ -16,7 +16,7 @@ Then, run `bundle install`.
 
 Add the following line to application.js
 
-//= require 'weld'
+//= require weld
 
 You're done!
 
