@@ -6,10 +6,10 @@
   @param {object} config
     An optional configuration object.
 
-  Example: $('contacts').weld([ { name: 'John' } ])
+  Example: $('.contacts').weld([ { name: 'John' } ])
 */
-$.fn.weld = function (data, config) {
-  return this.each (function () {
+$.fn.weld = function(data, config) {
+  return this.each(function() {
     weld(this, data, config);
   });
 };
