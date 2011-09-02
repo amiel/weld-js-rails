@@ -28,7 +28,7 @@ If you'd like weld integrated with jQuery, add the following line to application
 
 Then you can do this:
 
-    $('contacts').weld([ { name: 'John' } ])
+    $('.contacts').weld([ { name: 'John' } ])
 
 
 ## Rails 3.0
